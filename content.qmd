@@ -1,0 +1,14 @@
+---
+title: "Content"
+listing:
+  contents: content
+  sort: "date"
+  type: table
+  categories: false
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
+

@@ -8,15 +8,23 @@ website:
   title: "quarto-course-website"
   navbar:
     right:
-      - about.qmd
+      - text: "Join"
+        file: join.qmd
+      - text: "Prerequisites"
+        file: prerequisites.qmd
+      - text: "Schedule"
+        file: schedule.qmd
+      - text: "Content"
+        file: content.qmd
+ 
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/Warwick-Stats-Resources/quarto-course-website
 format:
   html:
-    theme: cosmo
+    theme: custom.scss
     css: styles.css
+    toc: true
+    link-external-newwindow: true
 
 
 
