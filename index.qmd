@@ -2,4 +2,4 @@
 title: "quarto-course-website"
 ---
 
-
+Welcome to the course!
