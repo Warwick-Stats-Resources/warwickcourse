@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "content/post-with-code/index.html",
-    "href": "content/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "content/01-first-session/index.html",
+    "href": "content/01-first-session/index.html",
+    "title": "First session",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
   },
   {
-    "objectID": "content/welcome/index.html",
-    "href": "content/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "objectID": "content/01-first-session/index.html#slides",
+    "href": "content/01-first-session/index.html#slides",
+    "title": "First session",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-first-session/index.html#resources",
+    "href": "content/01-first-session/index.html#resources",
+    "title": "First session",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nTITLE\n\n\n\n\nPackages"
   },
   {
     "objectID": "join.html",
@@ -25,7 +32,7 @@
     "href": "content.html",
     "title": "Content",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nMay 7, 2023\n\n\nWelcome To My Blog\n\n\nTristan O’Malley\n\n\n\n\nMay 10, 2023\n\n\nPost With Code\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nMay 1, 2023\n\n\nFirst session\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "prerequisites.html",
@@ -75,5 +82,54 @@
     "title": "Schedule",
     "section": "",
     "text": "Schedule goes here"
+  },
+  {
+    "objectID": "slides/01-first-session/index.html#overview",
+    "href": "slides/01-first-session/index.html#overview",
+    "title": "First Session",
+    "section": "Overview",
+    "text": "Overview\n\nWhat we’re covering"
+  },
+  {
+    "objectID": "slides/01-first-session/index.html#some-code",
+    "href": "slides/01-first-session/index.html#some-code",
+    "title": "First Session",
+    "section": "Some code",
+    "text": "Some code\n\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npenguins |&gt;\n  filter(sex == \"female\",\n         species == \"Gentoo\") |&gt;\n  slice_max(body_mass_g, n = 5) |&gt;\n  select(contains(\"bill\"))\n\n# A tibble: 5 × 2\n  bill_length_mm bill_depth_mm\n           &lt;dbl&gt;         &lt;dbl&gt;\n1           46.5          14.8\n2           45.2          14.8\n3           49.1          14.8\n4           44.9          13.3\n5           45.1          14.5"
+  },
+  {
+    "objectID": "slides/01-first-session/index.html#resources",
+    "href": "slides/01-first-session/index.html#resources",
+    "title": "First Session",
+    "section": "Resources",
+    "text": "Resources\nMaterial inspired by and remixed from:"
+  },
+  {
+    "objectID": "slides/01-first-session/index.html#license",
+    "href": "slides/01-first-session/index.html#license",
+    "title": "First Session",
+    "section": "License",
+    "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+  },
+  {
+    "objectID": "slides/00-template/index.html#overview",
+    "href": "slides/00-template/index.html#overview",
+    "title": "SESSION TITLE",
+    "section": "Overview",
+    "text": "Overview\n\nWhat we’re covering"
+  },
+  {
+    "objectID": "slides/00-template/index.html#resources",
+    "href": "slides/00-template/index.html#resources",
+    "title": "SESSION TITLE",
+    "section": "Resources",
+    "text": "Resources\nMaterial inspired by and remixed from:"
+  },
+  {
+    "objectID": "slides/00-template/index.html#license",
+    "href": "slides/00-template/index.html#license",
+    "title": "SESSION TITLE",
+    "section": "License",
+    "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
   }
 ]

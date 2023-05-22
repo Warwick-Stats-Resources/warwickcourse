@@ -1,31 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/content/post-with-code/index.html</loc>
-    <lastmod>2023-05-22T08:57:57.925Z</lastmod>
-  </url>
-  <url>
-    <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/content/welcome/index.html</loc>
-    <lastmod>2023-05-22T08:57:58.569Z</lastmod>
+    <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/content/01-first-session/index.html</loc>
+    <lastmod>2023-05-22T11:55:15.556Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/join.html</loc>
-    <lastmod>2023-05-22T08:57:58.849Z</lastmod>
+    <lastmod>2023-05-22T11:55:16.668Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/content.html</loc>
-    <lastmod>2023-05-22T08:57:59.189Z</lastmod>
+    <lastmod>2023-05-22T11:55:17.032Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/prerequisites.html</loc>
-    <lastmod>2023-05-22T08:57:59.453Z</lastmod>
+    <lastmod>2023-05-22T11:55:17.356Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/index.html</loc>
-    <lastmod>2023-05-22T08:57:59.761Z</lastmod>
+    <lastmod>2023-05-22T11:55:17.756Z</lastmod>
   </url>
   <url>
     <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/schedule.html</loc>
-    <lastmod>2023-05-22T08:58:00.045Z</lastmod>
+    <lastmod>2023-05-22T11:55:18.064Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/slides/01-first-session/index.html</loc>
+    <lastmod>2023-05-22T11:55:18.732Z</lastmod>
+  </url>
+  <url>
+    <loc>https://github.com/Warwick-Stats-Resources/quarto-course-website/slides/00-template/index.html</loc>
+    <lastmod>2023-05-22T11:55:19.108Z</lastmod>
   </url>
 </urlset>

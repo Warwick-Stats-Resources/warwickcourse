@@ -2,8 +2,7 @@
   {
     "listing": "/content.html",
     "items": [
-      "/content/welcome/index.html",
-      "/content/post-with-code/index.html"
+      "/content/01-first-session/index.html"
     ]
   }
 ]
