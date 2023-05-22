@@ -6,6 +6,7 @@ execute:
 
 website:
   title: "quarto-course-website"
+  favicon: images/warwick-university.png
   navbar:
     right:
       - text: "Join"
@@ -19,12 +20,12 @@ website:
  
       - icon: github
         href: https://github.com/Warwick-Stats-Resources/quarto-course-website
+  page-footer: "All material is shared under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){target='_blank'} license."
+  
 format:
   html:
     theme: custom.scss
     css: styles.css
     toc: true
     link-external-newwindow: true
-
-
 

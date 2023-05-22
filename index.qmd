@@ -3,3 +3,33 @@ title: "quarto-course-website"
 ---
 
 Welcome to the course!
+
+This course is aimed primarily at...
+
+## Syllabus overview
+
+What we're covering...
+
+All slides and further resources can be accessed from the [content](content.qmd) page and also via the [schedule](schedule.qmd). 
+
+## Session details
+
+{{< fa calendar >}} &nbsp; **DAY OF COURSE**
+
+{{< fa clock >}} &nbsp; **TIME OF COURSE**
+
+{{< fa location-dot >}} &nbsp; **LOCATION** 
+
+{{< fa calendar-alt >}} &nbsp; See the full [schedule](schedule.qmd).
+
+Please see the [join](join.qmd) page for more details on how to attend the course.
+
+## Instructor details
+
+{{< fa user >}} &nbsp; [**INSTRUCTOR**](https://INTSTRUCTOR-WEB-PAGE)
+
+{{< fa envelope >}} &nbsp; [**INSTRUCTOR E-MAIL**](mailto:INSTRUCTOR-E-MAIL)
+
+## Prerequistes
+
+Please see the [prerequisites](prerequisites.qmd) page for details on getting set up in advance of the first session.
