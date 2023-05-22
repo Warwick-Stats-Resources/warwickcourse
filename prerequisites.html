@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.340">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>quarto-course-website - Getting set up</title>
+<title>quarto-course-website - Prerequisites</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<link href="./images/warwick-university.png" rel="icon" type="image/png">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -113,23 +114,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#installing-r" id="toc-installing-r" class="nav-link active" data-scroll-target="#installing-r">Installing R</a></li>
-  <li><a href="#installing-r-studio-desktop-open-source-edition" id="toc-installing-r-studio-desktop-open-source-edition" class="nav-link" data-scroll-target="#installing-r-studio-desktop-open-source-edition">Installing R Studio Desktop (Open Source Edition)</a></li>
-  <li><a href="#development-tools" id="toc-development-tools" class="nav-link" data-scroll-target="#development-tools">Development Tools</a></li>
-  <li><a href="#terms-2-and-3" id="toc-terms-2-and-3" class="nav-link" data-scroll-target="#terms-2-and-3">Terms 2 and 3</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Getting set up</h1>
+<h1 class="title">Prerequisites</h1>
 </div>
 
 
@@ -144,53 +136,15 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Please ensure that you have the latest versions of R and RStudio installed prior to the first session. Currently, that’s R-4.2.1 and RStudio-2022.07.2.</p>
-<p>We also <strong>strongly</strong> recommend you install the development tools to avoid potential issues installing packages.</p>
-<section id="installing-r" class="level3">
-<h3 class="anchored" data-anchor-id="installing-r">Installing R</h3>
-<p>Download the pre-compiled binary for your OS from https://cloud.r-project.org/ and install. More specifically:</p>
-<p><strong>For Windows</strong></p>
-<p>Click “Download R for Windows”, then “base”, then “Download R-4.2.1 for Windows”. This will download an <code>.exe</code> file; once downloaded, open to start the installation.</p>
-<p><strong>For Mac</strong></p>
-<p>Click “Download R for macOS”, then “R-4.2.1.pkg” (the first option) to download the installer for Macs with <strong>Intel</strong> chips or “R-4.2.1-arm64.pkg” (the second option) to download the installer for Macs with <strong>Apple Silicon</strong> chips. Run the installer to complete installation.</p>
-<p><strong>For Linux</strong></p>
-<p>Click “Download R for Linux”. Instructions on installing are given for Debian, Fedora, Redhat, Suse and Ubuntu distributions. Where there is a choice, install both <code>r-base</code> and <code>r-base-dev</code>.</p>
-</section>
-<section id="installing-r-studio-desktop-open-source-edition" class="level3">
-<h3 class="anchored" data-anchor-id="installing-r-studio-desktop-open-source-edition">Installing R Studio Desktop (Open Source Edition)</h3>
-<p>Downloads are available from <a href="https://www.rstudio.com/products/rstudio/download/#download" class="uri">https://www.rstudio.com/products/rstudio/download/#download</a></p>
-<p><strong>For Windows with no admin rights</strong></p>
-<p>Download the <code>.zip</code> source archive under “Zip/Tarballs”. Extract the files to a folder where you have write access, e.g.&nbsp;<code>C:\Users\username\RStudio</code>. In this folder, open the <code>bin</code> directory and find the RStudio program: it is named <code>rstudio.exe</code>, but the file extension will typically be hidden, so look for <code>rstudio</code>. Right-click this executable to create a desktop shortcut. Double-click the executable or use the shortcut to open.</p>
-<p><strong>For all other operating systems</strong></p>
-<p>Download the relevant installer for your OS listed under “Installers for Supported Platforms”. Run the installer to complete installation.</p>
-</section>
-<section id="development-tools" class="level3">
-<h3 class="anchored" data-anchor-id="development-tools">Development Tools</h3>
-<p>Some additional tools may be required to compile R packages from source.</p>
-<p><strong>For Windows with no admin rights</strong></p>
-<p>Download the latest (recommended) Rtools installer, <code>Rtools.exe</code>, from <a href="https://cran.r-project.org/bin/windows/Rtools/" class="uri">https://cran.r-project.org/bin/windows/Rtools/</a>. Run the installer keeping the default settings.</p>
-<p><strong>For Windows with admin rights</strong></p>
-<p>Download the latest Rtools installer, <code>Rtools.exe</code>, from <a href="https://cran.r-project.org/bin/windows/Rtools/" class="uri">https://cran.r-project.org/bin/windows/Rtools/</a>. Run the installer making the following selections: keep the default settings for the installation location and components to install; check the box to add rtools to the system PATH.</p>
-<p><strong>For Mac</strong></p>
-<p>Install XCode. Either:</p>
-<ol type="1">
-<li>Download and install XCode from the Mac AppStore: <a href="http://itunes.apple.com/us/app/xcode/id497799835?mt=12" class="uri">http://itunes.apple.com/us/app/xcode/id497799835?mt=12</a></li>
-<li>Within XCode go to Preferences : Downloads and install the Command Line Tools</li>
-</ol>
-<p>Or for a smaller download size:</p>
-<ol type="1">
-<li>Register as an Apple Developer (free) here: <a href="https://developer.apple.com/programs/register/" class="uri">https://developer.apple.com/programs/register/</a></li>
-<li>Download the Command Line Tools for XCode appropriate for the version of OS X you are running from here: <a href="https://developer.apple.com/downloads/" class="uri">https://developer.apple.com/downloads/</a></li>
-</ol>
-<p><strong>For Linux</strong></p>
-<p>If you installed <code>r-base-dev</code>, when installing R, you should have all you need to build packages from source. Otherwise return to the instructions for installing R for your distribution and follow the instructions there to install the additional tools.</p>
-</section>
-<section id="terms-2-and-3" class="level3">
-<h3 class="anchored" data-anchor-id="terms-2-and-3">Terms 2 and 3</h3>
-<p>This page will be updated with prerequisites for terms 2 and 3 in due course.</p>
+<p>Add any prerequisites for the course here.</p>
+<p>If there are no prerequisites:</p>
+<ul>
+<li>delete the <code>prerequisites.qmd</code> file</li>
+<li>delete the prerequisites section in <code>index.qmd</code></li>
+<li>remove the lines in <code>_quarto.yml</code> which add a link to this file in the navbar.</li>
+</ul>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -441,6 +395,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">All material is shared under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> license.</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
