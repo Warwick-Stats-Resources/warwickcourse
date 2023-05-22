@@ -25,7 +25,9 @@ website:
 format:
   html:
     theme: custom.scss
+    highlight-style: warwick.theme
     css: styles.css
     toc: true
     link-external-newwindow: true
+    
 

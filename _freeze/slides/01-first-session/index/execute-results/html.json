@@ -1,0 +1,18 @@
+{
+  "hash": "4276af2e682acbe2af18fbb93671e7f9",
+  "result": {
+    "markdown": "---\ntitle: First Session\nsubtitle: COURSE NAME\nauthor: INSTRUCTOR | DEPARTMENT | UNIVERSITY\ntitle-slide-attributes:\n  data-background-color: \"#552D62\"\ndate: 2023-05-01\ndate-format: long\nformat: \n  warwickpres-revealjs:\n    execute:\n      echo: true\n      code-overflow: wrap\n---\n\n\n## Overview\n\n-   What we're covering\n\n# Section {background-color=\"#552D62\"}\n\n## Some code\n\n\n::: {.cell layout-align=\"center\"}\n\n```{.r .cell-code}\nlibrary(tidyverse)\nlibrary(palmerpenguins)\npenguins |>\n  filter(sex == \"female\",\n         species == \"Gentoo\") |>\n  slice_max(body_mass_g, n = 5) |>\n  select(contains(\"bill\"))\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n# A tibble: 5 × 2\n  bill_length_mm bill_depth_mm\n           <dbl>         <dbl>\n1           46.5          14.8\n2           45.2          14.8\n3           49.1          14.8\n4           44.9          13.3\n5           45.1          14.5\n```\n:::\n:::\n\n\n\n# End Matter {background-color=\"#552D62\"}\n\n## Resources\n\nMaterial inspired by and remixed from:\n\n- \n\n## License\n\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){target=\"_blank\"}).\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-after-body": [
+        "\n<script>\n  // htmlwidgets need to know to resize themselves when slides are shown/hidden.\n  // Fire the \"slideenter\" event (handled by htmlwidgets.js) when the current\n  // slide changes (different for each slide format).\n  (function () {\n    // dispatch for htmlwidgets\n    function fireSlideEnter() {\n      const event = window.document.createEvent(\"Event\");\n      event.initEvent(\"slideenter\", true, true);\n      window.document.dispatchEvent(event);\n    }\n\n    function fireSlideChanged(previousSlide, currentSlide) {\n      fireSlideEnter();\n\n      // dispatch for shiny\n      if (window.jQuery) {\n        if (previousSlide) {\n          window.jQuery(previousSlide).trigger(\"hidden\");\n        }\n        if (currentSlide) {\n          window.jQuery(currentSlide).trigger(\"shown\");\n        }\n      }\n    }\n\n    // hookup for slidy\n    if (window.w3c_slidy) {\n      window.w3c_slidy.add_observer(function (slide_num) {\n        // slide_num starts at position 1\n        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);\n      });\n    }\n\n  })();\n</script>\n\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

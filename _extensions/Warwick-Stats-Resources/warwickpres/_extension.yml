@@ -1,0 +1,28 @@
+title: University of Warwick Presentation
+author: Ella Kaye
+version: 1.0.0
+quarto-required: ">=1.2.0"
+contributes:
+  formats:
+    common:
+      knitr:
+        opts_chunk:
+          warning: false
+          message: false
+          dev: "ragg_png"
+          dpi: 320
+          fig.width: 6
+          fig.asp: 0.618
+          fig.retina: 2
+          fig.align: "center"
+          fig.show: "hold"
+    revealjs:
+      theme: [default, warwickpres.scss]
+      highlight-style: warwickpres.theme
+      slide-number: true
+      callout-icon: false
+      title-slide-attributes:
+        data-background-color: "#552D62"
+      preview-links: auto
+      link-external-newwindow: true
+      

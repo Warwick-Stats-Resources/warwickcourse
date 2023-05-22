@@ -1,0 +1,45 @@
+---
+title: First Session
+subtitle: COURSE NAME
+author: INSTRUCTOR | DEPARTMENT | UNIVERSITY
+title-slide-attributes:
+  data-background-color: "#552D62"
+date: 2023-05-01
+date-format: long
+format: 
+  warwickpres-revealjs:
+    execute:
+      echo: true
+      code-overflow: wrap
+---
+
+## Overview
+
+-   What we're covering
+
+# Section {background-color="#552D62"}
+
+## Some code
+
+```{r}
+library(tidyverse)
+library(palmerpenguins)
+penguins |>
+  filter(sex == "female",
+         species == "Gentoo") |>
+  slice_max(body_mass_g, n = 5) |>
+  select(contains("bill"))
+```
+
+
+# End Matter {background-color="#552D62"}
+
+## Resources
+
+Material inspired by and remixed from:
+
+- 
+
+## License
+
+Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){target="_blank"}).

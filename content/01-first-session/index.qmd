@@ -1,0 +1,25 @@
+---
+title: First session
+date: 2023-05-01
+draft: false
+---
+
+## Slides
+
+Here's a link to the [slides](/slides/01-first-session/index.qmd){target="_blank"} in a new window. 
+
+Here are the slides embedded:
+
+<iframe class="slide-deck ar3x2" src="/slides/01-first-session/index.html" title="First session slides">
+</iframe>
+
+## Resources
+
+### Reading
+
+- TITLE
+
+  <LINK>
+
+
+### Packages
