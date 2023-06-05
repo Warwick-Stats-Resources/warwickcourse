@@ -17,9 +17,9 @@ format:
 
 -   What we're covering
 
-# Section {background-color="#552D62"}
+# Section {.inverse}
 
-# End Matter {background-color="#552D62"}
+# End Matter {.inverse}
 
 ## Resources
 
