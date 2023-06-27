@@ -82,7 +82,7 @@ $gray180: #0b0c0c;
 $primary:       $aubergine !default;
 
 $presentation-font-size-root: 32px;
-$code-block-font-size: .55em;
+$code-block-font-size: .7em;
 $presentation-heading-font: Lato, Helvetica, sans-serif !default;
 //$presentation-heading-color: $ruby;
 $body-color: $gray120;
@@ -113,11 +113,14 @@ div.callout-warning {
 }
 
 // code
+
 pre.sourceCode {
   border-radius: 0;
   border-left-color: $gray;
-  font-size: .7em;
+  //font-size: .8em;
 }
+
+
 
 // title-slide
 
@@ -151,6 +154,10 @@ pre.sourceCode {
 
 .right {
   text-align: right;  
+}
+
+p {
+  padding-bottom: 12px;
 }
 
 .cell {
