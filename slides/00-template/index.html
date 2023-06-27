@@ -352,7 +352,7 @@ INSTRUCTOR | DEPARTMENT | UNIVERSITY
 
 <section>
 <section id="end-matter" class="title-slide slide level1 inverse center">
-<h1>End Matter</h1>
+<h1>End matter</h1>
 
 </section>
 <section id="resources" class="slide level2">
@@ -365,6 +365,52 @@ INSTRUCTOR | DEPARTMENT | UNIVERSITY
 <section id="license" class="slide level2">
 <h2>License</h2>
 <p>Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a>).</p>
+<!-- needs to be last chunk of presentation otherwise creates an extra slide -->
+<!-- requires Quarto v1.3 -->
+<!-- tint80 for border, tint20 for title -->
+<!-- this should hopefully no longer be necessary in Quarto 1.4 -->
+<!-- https://github.com/quarto-dev/quarto-cli/issues/5038 -->
+<style type="text/css">
+div.callout-note {
+  border-left-color: #336695 !important;
+}
+
+div.callout-note.callout-style-default .callout-title {
+  background-color: #CCD9E4 !important;
+}
+
+div.callout-caution {
+  border-left-color: #AE4240 !important;
+}
+
+div.callout-caution.callout-style-default .callout-title {
+  background-color: #ebd0cf !important;
+}
+
+div.callout-tip {
+  border-left-color: #618157 !important;
+}
+
+div.callout-tip.callout-style-default .callout-title {
+  background-color: #d8e0d5 !important;
+}
+
+div.callout-important {
+  border-left-color: #775781 !important;
+}
+
+div.callout-important.callout-style-default .callout-title {
+  background-color: #ddd5e0 !important;
+}
+
+div.callout-warning {
+  border-left-color: #956133 !important;
+}
+
+div.callout-warning.callout-style-default .callout-title {
+  background-color: #e4d8cc !important;
+}
+</style>
 
 <div class="footer footer-default">
 
