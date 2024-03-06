@@ -1,17 +1,10 @@
 [
   {
-    "objectID": "content.html",
-    "href": "content.html",
-    "title": "Content",
+    "objectID": "prerequisites.html",
+    "href": "prerequisites.html",
+    "title": "Prerequisites",
     "section": "",
-    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nMay 1, 2023\n\n\nFirst session\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "schedule.html",
-    "href": "schedule.html",
-    "title": "Schedule",
-    "section": "",
-    "text": "Schedule goes here"
+    "text": "Add any prerequisites for the course here.\nIf there are no prerequisites:\n\ndelete the prerequisites.qmd file\ndelete the prerequisites section in index.qmd\nremove the lines in _quarto.yml which add a link to this file in the navbar."
   },
   {
     "objectID": "slides/00-template/index.html#overview",
@@ -33,6 +26,20 @@
     "title": "SESSION TITLE",
     "section": "License",
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
+  },
+  {
+    "objectID": "join.html",
+    "href": "join.html",
+    "title": "Join the class",
+    "section": "",
+    "text": "Add any instructions for joining the course here.\nIf there are no joining instructions:\n\ndelete the join.qmd file\ndelete the link to the join page in the ‘Session Details’ section of index.qmd\nremove the lines in _quarto.yml which add a link to this file in the navbar."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Schedule goes here"
   },
   {
     "objectID": "index.html",
@@ -70,6 +77,34 @@
     "text": "Prerequistes\nPlease see the prerequisites page for details on getting set up in advance of the first session."
   },
   {
+    "objectID": "content/01-first-session/index.html",
+    "href": "content/01-first-session/index.html",
+    "title": "First session",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-first-session/index.html#slides",
+    "href": "content/01-first-session/index.html#slides",
+    "title": "First session",
+    "section": "",
+    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
+  },
+  {
+    "objectID": "content/01-first-session/index.html#resources",
+    "href": "content/01-first-session/index.html#resources",
+    "title": "First session",
+    "section": "Resources",
+    "text": "Resources\n\nReading\n\nTITLE\n\n\n\n\nPackages"
+  },
+  {
+    "objectID": "content.html",
+    "href": "content.html",
+    "title": "Content",
+    "section": "",
+    "text": "Date\n\n\nTitle\n\n\n\n\n\n\nMay 1, 2023\n\n\nFirst session\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "slides/01-first-session/index.html#overview",
     "href": "slides/01-first-session/index.html#overview",
     "title": "First Session",
@@ -96,40 +131,5 @@
     "title": "First Session",
     "section": "License",
     "text": "License\nLicensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)."
-  },
-  {
-    "objectID": "content/01-first-session/index.html",
-    "href": "content/01-first-session/index.html",
-    "title": "First session",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-first-session/index.html#slides",
-    "href": "content/01-first-session/index.html#slides",
-    "title": "First session",
-    "section": "",
-    "text": "Here’s a link to the slides in a new window.\nHere are the slides embedded:"
-  },
-  {
-    "objectID": "content/01-first-session/index.html#resources",
-    "href": "content/01-first-session/index.html#resources",
-    "title": "First session",
-    "section": "Resources",
-    "text": "Resources\n\nReading\n\nTITLE\n\n\n\n\nPackages"
-  },
-  {
-    "objectID": "prerequisites.html",
-    "href": "prerequisites.html",
-    "title": "Prerequisites",
-    "section": "",
-    "text": "Add any prerequisites for the course here.\nIf there are no prerequisites:\n\ndelete the prerequisites.qmd file\ndelete the prerequisites section in index.qmd\nremove the lines in _quarto.yml which add a link to this file in the navbar."
-  },
-  {
-    "objectID": "join.html",
-    "href": "join.html",
-    "title": "Join the class",
-    "section": "",
-    "text": "Add any instructions for joining the course here.\nIf there are no joining instructions:\n\ndelete the join.qmd file\ndelete the link to the join page in the ‘Session Details’ section of index.qmd\nremove the lines in _quarto.yml which add a link to this file in the navbar."
   }
 ]
