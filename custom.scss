@@ -11,17 +11,37 @@ $font-family-monospace: "Fira Mono", monospace;
 $headings-font-family: Lato, Helvetica, sans-serif !default;
 
 //  Warwick colors 
-$aubergine: #552D62;
-$aubergine2: #886C91; //paler
-$ruby: #9A1310;
-$ruby2: #B85A58; //paler
-$sky: #00407A;
-$sky2: #4D79A2; //paler
-$gray: #393A3B;
-$gray2: #747576; //paler
+$aubergine: #3C1053;
+$aubergine85: #59346d;
+$aubergine70: #775887; 
+$aubergine50: #9e88a9;
+$aubergine30: #c5b7cb;
+$aubergine15: #e2dbe5;
 
-$primary:   $aubergine !default;
-$navbar-bg: $aubergine;
+$ruby_bright: #CB333B;
+$blue_bright: #00A9CE;
+$teal_bright: #6DCDB8;
+$orange_bright: #E87722;
+$gold_bright: #F1BE48;
+
+$teal_dark: #507F70;
+$teal_shade: #5DAE9C;
+
+$gray: #58595B;
+$gray_dark: #383838;
+$black: #000000;
+$gray20: #cccccc; // % of black
+$gray10: #e6e6e6; // % of black
+$gray05: #f2f2f2; // % of black
+$white: #ffffff;
+
+$primary:       $aubergine !default;
+$body-color: $gray_dark;
+//$link-color: $aubergine70;
+$link-color: $aubergine;
+$code-color: $teal_dark;
+$navbar-bg: $primary;
+$navbar-fg: $teal_bright;
 
 /*-- scss:rules --*/
 
@@ -30,10 +50,22 @@ $navbar-bg: $aubergine;
   color: $primary;
 }
 
+#quarto-header > nav > div > div.navbar-brand-container.mx-auto > a:hover {
+  color: $teal_shade;
+}
+
+#navbarCollapse > ul > li > a:hover {
+  color: $teal_shade;
+}
+
+#navbarCollapse > ul > li > a.active {
+  color: $gold_bright;
+}
+
 // code
 pre.sourceCode {
   border-radius: 0;
-  border-left-color: $gray-500;
+  border-left-color: $gray;
 }
 
 h1, h2 {
@@ -43,7 +75,7 @@ h1, h2 {
 
 #quarto-header {
   //text-transform: uppercase;
-  font-family: Figtree, Helvetica, sans-serif;
+  font-family: $headings-font-family;
   font-weight: 700;
 }
 

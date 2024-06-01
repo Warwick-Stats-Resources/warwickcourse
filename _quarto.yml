@@ -5,8 +5,8 @@ execute:
   freeze: auto
 
 website:
-  title: "quarto-course-website"
-  favicon: images/warwick-university.png
+  title: "warwickcourse"
+  favicon: images/warwick-monogram-favicon.png
   navbar:
     right:
       - text: "Join"

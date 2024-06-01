@@ -1,5 +1,5 @@
 ---
-title: "quarto-course-website"
+title: "warwickcourse"
 ---
 
 Welcome to the course!
