@@ -19,7 +19,7 @@ website:
         file: content.qmd
  
       - icon: github
-        href: https://github.com/Warwick-Stats-Resources/quarto-course-website
+        href: https://github.com/Warwick-Stats-Resources/warwickcourse
   page-footer: "All material is shared under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){target='_blank'} license."
   
 format:
