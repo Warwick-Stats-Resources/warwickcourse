@@ -1,1 +1,1 @@
-Sitemap: https://Warwick-Stats-Resources.github.io/quarto-course-website/sitemap.xml
+Sitemap: https://Warwick-Stats-Resources.github.io/warwickcourse/sitemap.xml
