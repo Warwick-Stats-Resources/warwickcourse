@@ -2,8 +2,6 @@
 title: SESSION TITLE
 subtitle: COURSE NAME
 author: INSTRUCTOR | DEPARTMENT | UNIVERSITY
-title-slide-attributes:
-  data-background-color: "#552D62"
 date: yyyy-MM-dd
 date-format: long
 format: 
@@ -36,49 +34,47 @@ Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Inter
 <!-- needs to be last chunk of presentation otherwise creates an extra slide -->
 <!-- requires Quarto v1.3 -->
 <!-- tint80 for border, tint20 for title -->
-<!-- this should hopefully no longer be necessary in Quarto 1.4 -->
+<!-- this should hopefully no longer be necessary in a future version of Quarto -->
 <!-- https://github.com/quarto-dev/quarto-cli/issues/5038 -->
 <style type="text/css">
 div.callout-note {
-  border-left-color: #336695 !important;
+  border-left-color: #00A9CE !important;
 }
 
 div.callout-note.callout-style-default .callout-title {
-  background-color: #CCD9E4 !important;
-}
-
-div.callout-caution {
-  border-left-color: #AE4240 !important;
-}
-
-div.callout-caution.callout-style-default .callout-title {
-  background-color: #ebd0cf !important;
-}
-
-div.callout-tip {
-  border-left-color: #618157 !important;
-}
-
-div.callout-tip.callout-style-default .callout-title {
-  background-color: #d8e0d5 !important;
-}
-
-div.callout-important {
-  border-left-color: #775781 !important;
-}
-
-div.callout-important.callout-style-default .callout-title {
-  background-color: #ddd5e0 !important;
+  background-color: #B3E5F0 !important;
 }
 
 div.callout-warning {
-  border-left-color: #956133 !important;
+  border-left-color: #CB333B !important;
 }
 
 div.callout-warning.callout-style-default .callout-title {
-  background-color: #e4d8cc !important;
+  background-color: #EEC3C3 !important;
+}
+
+div.callout-tip {
+  border-left-color: #6DCDB8 !important;
+}
+
+div.callout-tip.callout-style-default .callout-title {
+  background-color: #D3F0EB !important;
+}
+
+div.callout-important {
+  border-left-color: #F1BE48 !important;
+}
+
+div.callout-important.callout-style-default .callout-title {
+  background-color: #FAECC8 !important;
+}
+
+div.callout-caution {
+  border-left-color: #E87722 !important;
+}
+
+div.callout-caution.callout-style-default .callout-title {
+  background-color: #F8D5BC !important;
 }
 </style>
 ```
-
-
