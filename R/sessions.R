@@ -1,6 +1,6 @@
 library(here)
 
-create_class <- function(name) {
+create_session <- function(name) {
   
   # new slides
   from_slides <- here("slides", "00-template")
@@ -25,7 +25,7 @@ create_class <- function(name) {
 
 }
 
-delete_class <- function(name) {
+delete_session <- function(name) {
   content <- here("content", name)
   slides <- here("slides", name)
   
