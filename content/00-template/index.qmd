@@ -14,7 +14,7 @@ draft: true
 - Fill in resources
 - change `draft` to `false`
 
-**TODO only if class *hasn't* been created with** `create_class()`:
+**TODO only if class *hasn't* been created with** `create_session()`:
 
 - Create folder and its contents for slides: 
   - in Terminal run:
