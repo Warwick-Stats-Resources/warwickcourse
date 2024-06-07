@@ -10,7 +10,9 @@ The template has a home page ready to fill in key information about the course. 
 
 To ease the process of creating content pages and slides for new sessions (and linking them), there is a `create_session()` R function, details below.
 
-The slides use the [warwickpres](https://github.com/warwick-Stats-Resources/warwickpres) extension, which is a Quarto Revealjs presentation format that is consistent with the University of Warwick's brand.
+The slides use the [warwickpres](https://github.com/warwick-Stats-Resources/warwickpres) extension, which is a Quarto Revealjs presentation format that is consistent with the University of Warwick's brand. The warwickpres extension can also be used for stand-alone presentations. 
+
+Users of the warwickcourse template may also be interested in [warwickplots](https://warwick-stats-resources.github.io/warwickplots), nn R package with colour palettes and a ggplot2 theme that are consistent with The University of Warwick’s brand.
 
 In addition, the website template has pages for instructions on joining, prerequisites and the schedule.
 
