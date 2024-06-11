@@ -198,6 +198,10 @@ kbd {
 
   h1, h2, h3 {
     color: $teal_bright;
+    
+    code {
+      color: $gold_bright;
+    }
   }
   
   .slide-background-content {
