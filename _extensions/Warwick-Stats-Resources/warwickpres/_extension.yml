@@ -1,6 +1,6 @@
 title: University of Warwick Presentation
 author: Ella Kaye
-version: 3.0.0
+version: 3.0.1
 quarto-required: ">=1.6.0"
 contributes:
   formats:
@@ -12,7 +12,8 @@ contributes:
           fig.align: "center"
           fig.show: "hold"
     revealjs:
-      theme: [default, warwickpres.scss]
+      theme: [default, warwickpres.scss] 
+      css: [online_fonts.css] # online_fonts.css or offline_fonts.css
       highlight-style: warwickpres_shade15.theme
       slide-number: true
       callout-icon: true
@@ -26,7 +27,6 @@ contributes:
       width: 1280
       height: 720
       keep-md: false
-      embed-resources: true 
-      format-resources:
-        #- fonts
-        - offline_fonts.R
+      embed-resources: true
+#      format-resources:  # uncomment this and following line for offline fonts
+#        - offline_fonts
