@@ -22,7 +22,7 @@ With some experience of Quarto (and/or reference to the excellent [Quarto docume
 - In the top-right corner of this repo on GitHub, click on the green 'Use this template' button, then 'Create a new repository'. Select the owner and choose a name for the repo. (Do *not* select 'Include all branches').
 - Click 'Create repository'.
 - Once you have your own copy of the repo, open a project for it locally in your preferred IDE.
-  - To use the R functions that come with the template, it is important that the project is self-contained. I use RStudio projects for this.
+  - To use the R functions that come with the template, it is important that the project is self-contained, e.g. an open folder in positron or an RStudio project.
 
 ## Adapting the template
 There are several files that come with the template that you will need to adapt:
@@ -42,6 +42,8 @@ There are several files that come with the template that you will need to adapt:
 - `content.qmd`
   - This is the listings page for the course material and does **not** need to be edited, unless you wish to change the appearance of the listing. See the Quarto docs on [listing pages](https://quarto.org/docs/websites/website-listings.html) for details. 
     - If your course content only needs one page, you can delete all the YAML on this page to stop it being a listings page, and instead fill with your course content. You may find it useful to copy/adapt the contents of the `contents/00-template/index.qmd` file for this purpose.
+- README.md
+  - You may want to update with specific details of the course, rather than the instructions for useing the warwickcourse template.
   
 You can, of course, make any other adaptations to the template to suit your needs.
 
@@ -58,7 +60,7 @@ Note that in the contents template, there are three places where the text `UPDAT
 
 The website template comes with R functions that will create and delete sessions.
 To use them, you need the [here](https://here.r-lib.org) package installed.
-To use the provided functions, first run the following in the console (assuming you're in a RStudio project for the website):
+To use the provided functions, first run the following in the console (assuming you're in a RStudio project for the website, or a folder in positron):
 
 ```{.r}
 source("R/sessions.R")
