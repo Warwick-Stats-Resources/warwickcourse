@@ -9,10 +9,6 @@ format:
     execute:
       echo: true
       code-overflow: wrap
-    title-slide-attributes: 
-      data-background-image: ../../images/warwick-logo-white.png
-      data-background-size: 15%
-      data-background-position: 100% 0%
 ---
 
 ## Overview
@@ -33,52 +29,3 @@ Material inspired by and remixed from:
 
 Licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/){target="_blank"}).
 
-
-```{=html}
-<!-- needs to be last chunk of presentation otherwise creates an extra slide -->
-<!-- requires Quarto v1.3 -->
-<!-- tint80 for border, tint20 for title -->
-<!-- this should hopefully no longer be necessary in a future version of Quarto -->
-<!-- https://github.com/quarto-dev/quarto-cli/issues/5038 -->
-<style type="text/css">
-div.callout-note {
-  border-left-color: #00A9CE !important;
-}
-
-div.callout-note.callout-style-default .callout-title {
-  background-color: #B3E5F0 !important;
-}
-
-div.callout-warning {
-  border-left-color: #CB333B !important;
-}
-
-div.callout-warning.callout-style-default .callout-title {
-  background-color: #EEC3C3 !important;
-}
-
-div.callout-tip {
-  border-left-color: #6DCDB8 !important;
-}
-
-div.callout-tip.callout-style-default .callout-title {
-  background-color: #D3F0EB !important;
-}
-
-div.callout-important {
-  border-left-color: #F1BE48 !important;
-}
-
-div.callout-important.callout-style-default .callout-title {
-  background-color: #FAECC8 !important;
-}
-
-div.callout-caution {
-  border-left-color: #E87722 !important;
-}
-
-div.callout-caution.callout-style-default .callout-title {
-  background-color: #F8D5BC !important;
-}
-</style>
-```
