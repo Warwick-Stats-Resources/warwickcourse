@@ -5,8 +5,6 @@ $font-family-monospace: "Fira Mono", monospace;
 $headings-font-family: Lato, Helvetica, sans-serif !default;
 
 //  Warwick colors 
-// not using all of these, but keep for reference 
-// in case we want to change elements of the theme later
 $aubergine: #3C1053;
 $aubergine85: #59346d;
 $aubergine70: #775887; 
@@ -40,7 +38,7 @@ $gray10: #e6e6e6; // % of black
 $gray05: #f2f2f2; // % of black
 $white: #ffffff;
 
-$primary:       $aubergine !default;
+$primary: $aubergine !default;
 
 $presentation-font-size-root: 32px;
 $code-block-font-size: .7em;
@@ -49,21 +47,21 @@ $body-color: $gray_dark;
 $link-color: $blue_mid;
 $code-color: $ruby_bright;
 
-/*-- scss:rules --*/
-
-// callouts 
+// MOST IMPORTANT: Define callout colors in scss:defaults section
 $callout-color-note: $blue_bright;
 $callout-color-caution: $gold_bright;
 $callout-color-tip: $teal_bright;
 $callout-color-warning: $orange_bright;
 $callout-color-important: $ruby_bright;
 
+/*-- scss:rules --*/
+
 // Create a map using color names
 $colors: (
   'teal-light': $teal_light,
   'ruby-light': $ruby_light,
   'aubergine-light': $aubergine_light,
-  'ruby-dark': $ruby-dark,
+  'ruby-dark': $ruby_dark,
   'blue-dark': $blue_dark,
   'teal-dark': $teal_dark
 );
@@ -99,11 +97,7 @@ $colors: (
   }
 }
 
-/*
-Correct the alignment and spacing of the title in the callouts 
-so they look like the Quarto defaults.
-Other CSS changes override them otherwise. 
-*/
+// Correct the alignment and spacing of the title in the callouts
 .reveal .callout {
   .callout-title {
     display: flex;
@@ -130,11 +124,9 @@ Other CSS changes override them otherwise.
 pre.sourceCode {
   border-radius: 0;
   border-left-color: $gray;
-  //font-size: .8em;
 }
 
 // title-slide
-
 #title-slide {
   color: $white;
 }
@@ -176,7 +168,7 @@ p {
   padding-bottom: 20px;
 }
 
-// headings
+// headings - ensure these rules are not being overridden
 .reveal h2, .reveal h3 {
   color: $primary;
 }
@@ -186,49 +178,17 @@ p {
 }
 
 // sizes
-.smaller90 {
-  font-size: 90%;
-}
-
-.smaller80 {
-  font-size: 80%;
-}
-
-.smaller75 {
-  font-size: 75%;
-}
-
-.smaller70 {
-  font-size: 70%;
-}
-
-.smaller60 {
-  font-size: 60%;
-}
-
-.smaller50 {
-  font-size: 50%;
-}
-
-.larger125 {
-  font-size: 125%;
-}
-
-.larger150 {
-  font-size: 150%;
-}
-
-.larger175 {
-  font-size: 175%;
-}
-
-.larger200 {
-  font-size: 200%;
-}
-
-.larger250 {
-  font-size: 250%;
-}
+.smaller90 { font-size: 90%; }
+.smaller80 { font-size: 80%; }
+.smaller75 { font-size: 75%; }
+.smaller70 { font-size: 70%; }
+.smaller60 { font-size: 60%; }
+.smaller50 { font-size: 50%; }
+.larger125 { font-size: 125%; }
+.larger150 { font-size: 150%; }
+.larger175 { font-size: 175%; }
+.larger200 { font-size: 200%; }
+.larger250 { font-size: 250%; }
 
 // figure caption
 .reveal .slide figure>figcaption, .reveal .slide img.stretch+p.caption, .reveal .slide img.r-stretch+p.caption {
@@ -241,7 +201,6 @@ p {
     border-color: $gray20;
 }
 
-
 // keyboard
 kbd {
   border: 1px solid #aaa;
@@ -251,10 +210,12 @@ kbd {
   background: linear-gradient(178deg, #fff, #fff, #fff, #ddd);
 }
 
-// inverse
-// with credit/thanks to Emil Hvidfeldt
-// adapted from https://github.com/EmilHvitfeldt/quarto-revealjs-inverse
+// don't show page number on title-page
+.reveal .slide-number > a[href*='title-slide'] {
+  display: none;
+}
 
+// inverse
 .inverse {
   color: $white;
 
@@ -277,7 +238,8 @@ kbd {
   p code {
     color: $gold_bright;
   }
-
+  
+  // Inverse callout backgrounds
   div.callout-note.callout-style-default .callout-title {
     background-color: $blue_dark !important;
   }
@@ -297,28 +259,14 @@ kbd {
   div.callout-caution.callout-style-default .callout-title {
     background-color: $orange_dark !important;
   }
-
-  // white icons so they show up against dark title
+  
+  // white icons in inverse mode
   .callout-icon::before {
     filter: brightness(0) invert(1);
   }
-
-  /*
-  try changing colour of callout content background, but issue with margin that would be fiddly to sort
-  div.callout.callout-note.callout-titled.callout-style-default > div > div.callout-content {
-    background-color: grey;
-  }
-  */
-
-  // just changing title (against ligher background, if not specifying title background color
-  /*
-  div.callout-style-default .callout-title {
-    color: $gray_dark;
-  }
-  */
 }
 
-// don't show page number on title-page
-.reveal .slide-number > a[href*='title-slide'] {
-  display: none;
+// CRITICAL: This overrides callout title colors in inverse slides
+.inverse .callout-title p { 
+  color: $white !important; 
 }
