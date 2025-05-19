@@ -4,11 +4,7 @@ subtitle: COURSE NAME
 author: INSTRUCTOR | DEPARTMENT
 date: yyyy-MM-dd
 date-format: long
-format: 
-  warwickpres-revealjs:
-    execute:
-      echo: true
-      code-overflow: wrap
+format: warwickpres-revealjs
 ---
 
 ## Overview

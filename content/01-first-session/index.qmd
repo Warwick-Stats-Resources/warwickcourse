@@ -1,6 +1,6 @@
 ---
 title: First session
-date: 2023-05-01
+date: 2025-05-18
 draft: false
 ---
 
