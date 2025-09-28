@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/prerequisites.html</loc>
-    <lastmod>2025-06-15T19:26:09.922Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/content.html</loc>
-    <lastmod>2025-06-15T19:26:09.920Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/content/01-first-session/index.html</loc>
-    <lastmod>2025-06-15T19:26:09.920Z</lastmod>
+    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/schedule.html</loc>
+    <lastmod>2025-09-28T09:36:59.680Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/slides/01-first-session/index.html</loc>
-    <lastmod>2025-06-15T19:26:09.922Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/schedule.html</loc>
-    <lastmod>2025-06-15T19:26:09.922Z</lastmod>
+    <lastmod>2025-09-28T09:36:59.680Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/join.html</loc>
-    <lastmod>2025-06-15T19:26:09.922Z</lastmod>
-  </url>
-  <url>
-    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/slides/00-template/index.html</loc>
-    <lastmod>2025-06-15T19:26:09.922Z</lastmod>
+    <lastmod>2025-09-28T09:36:59.680Z</lastmod>
   </url>
   <url>
     <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/index.html</loc>
-    <lastmod>2025-06-15T19:26:09.922Z</lastmod>
+    <lastmod>2025-09-28T09:36:59.680Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/content.html</loc>
+    <lastmod>2025-09-28T09:36:59.678Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/slides/00-template/index.html</loc>
+    <lastmod>2025-09-28T09:36:59.680Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/prerequisites.html</loc>
+    <lastmod>2025-09-28T09:36:59.680Z</lastmod>
+  </url>
+  <url>
+    <loc>https://Warwick-Stats-Resources.github.io/warwickcourse/content/01-first-session/index.html</loc>
+    <lastmod>2025-09-28T09:36:59.678Z</lastmod>
   </url>
 </urlset>
