@@ -1,18 +1,16 @@
 # A quarto template for University of Warwick branded course/workshop websites
 
-This template is consistent with the University of Warwick's [brand](https://warwick.ac.uk/about/brand/), and makes it easy to make and publish websites for courses, workshops and similar.
+This template is consistent with the University of Warwick's [brand](https://brand.warwick.ac.uk/), and makes it easy to make and publish websites for courses, workshops and similar.
 
 What the template looks like as a website: <https://Warwick-Stats-Resources.github.io/warwickcourse>
 
-An example of the template used for a full course: <https://Warwick-Stats-Resources.github.io/r-packages-2024>
+An example of the template used for a full course: <https://Warwick-Stats-Resources.github.io/r-packages-2025>
 
 The template has a home page ready to fill in key information about the course. It assumes that the course/workshop is delivered across several sessions, and that each session will have its own content page and its own set of slides (though can be simplified if only one content page/set of slides is required - see below). The slides for each session are embedded in the content page for the session, and a link is supplied to read the slides in a new window.
 
 To ease the process of creating content pages and slides for new sessions (and linking them), there is a `create_session()` R function, details below.
 
 The slides use the [warwickpres](https://github.com/warwick-Stats-Resources/warwickpres) extension, which is a Quarto Revealjs presentation format that is consistent with the University of Warwick's brand. The warwickpres extension can also be used for stand-alone presentations. See its [GitHub repo](https://github.com/warwick-Stats-Resources/warwickpres) and [example presentation](https://warwick-stats-resources.github.io/warwickpres) for more details.
-
-Users of the warwickcourse template may also be interested in [warwickplots](https://warwick-stats-resources.github.io/warwickplots), nn R package with colour palettes and a ggplot2 theme that are consistent with The University of Warwick’s brand.
 
 In addition, the website template has pages for instructions on joining, prerequisites and the schedule.
 
