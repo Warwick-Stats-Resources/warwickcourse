@@ -1,70 +1,95 @@
 /*-- scss:defaults --*/
 
-$font-family-sans-serif: Lato, Helvetica, sans-serif !default;
+@import url(https://fonts.googleapis.com/css?family=Fira+Mono&display=swap);
+
+$font-family-sans-serif: Arial, sans-serif !default;
 $font-family-monospace: "Fira Mono", monospace;
-$headings-font-family: Lato, Helvetica, sans-serif !default;
+$headings-font-family: Arial, sans-serif !default;
 
-//  Warwick colors 
-$aubergine: #3C1053;
-$aubergine85: #59346d;
-$aubergine70: #775887; 
-$aubergine50: #9e88a9;
-$aubergine30: #c5b7cb;
-$aubergine15: #e2dbe5;
+// Warwick colors 
+$lavendar: #A499F4;
+$purple: #440379;
+$coral: #F1977F; 
+$blue: #6CB7FF;
+$green: #51D7C1;
+$yellow: #FEDE7B;
 
-$ruby_bright: #CB333B;
-$blue_bright: #00A9CE;
-$teal_bright: #6DCDB8;
-$orange_bright: #E87722;
-$gold_bright: #F1BE48;
+$black: #0C0C0C;
+$gray-mid: #9E9E9E;
+$gray-light: #CECECE;
+$white: #FDFCFC;
 
-$ruby_dark: #9D2235;
-$blue_dark: #41748D;
-$teal_dark: #507F70;
-$orange_dark: #BE531C;
-$gold_dark: #D69A2D;
+// Different shades 
+$purple-bright: #693594;
+$blue-dark: #4C80B3;
+/*
+$lavendar-dark: #625C92;
+$coral-dark: #794C40; 
+$blue-dark: #416E99;
+$green-dark: #318174;
+$yellow-dark: #7F6F3E;
+*/
 
-$teal_light: #C4EBE4;  //teal 40%
-$ruby_light: #EFC2C4;  // ruby 30%
-$aubergine_light: $aubergine30;
 
-$blue_mid: #0090AF; // 15% shade of $blue_bright
-
-$gray: #58595B;
-$gray_dark: #383838; // this is text colour used on main Warwick site
-$black: #000000;
-$gray20: #cccccc; // % of black
-$gray10: #e6e6e6; // % of black
-$gray05: #f2f2f2; // % of black
-$white: #ffffff;
-
-$primary: $aubergine !default;
+$primary: $lavendar !default;
 
 $presentation-font-size-root: 32px;
 $code-block-font-size: .7em;
-$presentation-heading-font: Lato, Helvetica, sans-serif !default;
-$body-color: $gray_dark;
-$link-color: $blue_mid;
-$code-color: $ruby_bright;
+$presentation-heading-font: $headings-font-family;
+$body-color: $black;
+$link-color: $blue-dark; 
+$code-color: $purple-bright; // with $purple, not quite enough differentiation from black 
 
-// MOST IMPORTANT: Define callout colors in scss:defaults section
-$callout-color-note: $blue_bright;
-$callout-color-caution: $gold_bright;
-$callout-color-tip: $teal_bright;
-$callout-color-warning: $orange_bright;
-$callout-color-important: $ruby_bright;
+$callout-color-note: $blue;
+$callout-color-caution: $coral;
+$callout-color-tip: $green;
+$callout-color-warning: $yellow;
+$callout-color-important: $lavendar;
 
 /*-- scss:rules --*/
 
 // Create a map using color names
 $colors: (
-  'teal-light': $teal_light,
-  'ruby-light': $ruby_light,
-  'aubergine-light': $aubergine_light,
-  'ruby-dark': $ruby_dark,
-  'blue-dark': $blue_dark,
-  'teal-dark': $teal_dark
+  'lavendar': $lavendar,
+  'coral': $coral,
+  'blue': $blue,
+  'green': $green,
+  'yellow': $yellow,
 );
+
+// color classes for highlighting text
+@mixin bg($padding: 5px 10px) {
+  font-weight: 700;
+  padding: $padding;
+}
+
+@each $name, $color in $colors {
+    .#{$name} {
+      @include bg;  
+      background-color: $color;
+    }
+}
+
+// color classes for slide backgrounds
+@each $name, $color in $colors {
+    .#{$name}-bg {
+      .slide-background-content {
+        background-color: $color;
+      }
+    }
+}
+
+/*
+Keep an inverse class for back-compatibility
+But don't document this.
+Prefer to use a variety of {color}-bg classes as section breaks
+and for stressing important points.
+*/
+.inverse {
+  .slide-background-content {
+    background-color: $lavendar;
+  }  
+}
 
 // mixin for boxes with height parameter
 @mixin box-style($height: 450px) {  // 450px is default value
@@ -115,18 +140,14 @@ $colors: (
   }
 }
 
-// color classes
-.primary {
-  color: $primary;
-}
-
 // code
 pre.sourceCode {
   border-radius: 0;
-  border-left-color: $gray;
+  border-left-color: $gray-mid;
 }
 
 // title-slide
+/*
 #title-slide {
   color: $white;
 }
@@ -136,6 +157,7 @@ pre.sourceCode {
   padding-bottom: .25em;
   color: $teal_bright;
 }
+*/
 
 #title-slide .subtitle {
   margin-bottom: 6rem;
@@ -170,7 +192,7 @@ p {
 
 // headings - ensure these rules are not being overridden
 .reveal h2, .reveal h3 {
-  color: $primary;
+  color: $purple;
 }
 
 .reveal h2 {
@@ -198,7 +220,7 @@ p {
 // tables
 .reveal table th, .reveal table td {
     border-bottom: 1px solid;
-    border-color: $gray20;
+    border-color: $gray-light;
 }
 
 // keyboard
@@ -215,58 +237,6 @@ kbd {
   display: none;
 }
 
-// inverse
-.inverse {
-  color: $white;
-
-  h1, h2, h3 {
-    color: $teal_bright;
-    
-    code {
-      color: $gold_bright;
-    }
-  }
-  
-  .slide-background-content {
-    background-color: $aubergine;
-  }
-  
-  a {
-    color: $blue_bright;
-  }
-  
-  p code {
-    color: $gold_bright;
-  }
-  
-  // Inverse callout backgrounds
-  div.callout-note.callout-style-default .callout-title {
-    background-color: $blue_dark !important;
-  }
-
-  div.callout-warning.callout-style-default .callout-title {
-    background-color: $gold_dark !important;
-  }
-
-  div.callout-important.callout-style-default .callout-title {
-    background-color: $ruby_dark !important;
-  }
-
-  div.callout-tip.callout-style-default .callout-title {
-    background-color: $teal_dark !important;
-  }
-
-  div.callout-caution.callout-style-default .callout-title {
-    background-color: $orange_dark !important;
-  }
-  
-  // white icons in inverse mode
-  .callout-icon::before {
-    filter: brightness(0) invert(1);
-  }
-}
-
-// CRITICAL: This overrides callout title colors in inverse slides
-.inverse .callout-title p { 
-  color: $white !important; 
+.footer a {
+  color: $purple !important;
 }

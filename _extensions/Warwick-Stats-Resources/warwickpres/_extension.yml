@@ -1,6 +1,6 @@
 title: University of Warwick Presentation
 author: Ella Kaye
-version: 4.0.0
+version: 5.0.0
 quarto-required: ">=1.6.0"
 contributes:
   formats:
@@ -15,21 +15,18 @@ contributes:
         echo: true
         code-overflow: wrap
     revealjs:
-      theme: [default, warwickpres.scss] 
-      css: [online_fonts.css] # online_fonts.css or offline_fonts.css
-      highlight-style: warwickpres_shade15.theme
+      theme: warwickpres.scss
+      highlight-style: warwickpres-dark.theme
       slide-number: true
       callout-icon: true
       title-slide-attributes:
-        data-background-color: "#3C1053"
-        data-background-image: warwick-logo-white.png
-        data-background-size: 15%
-        data-background-position: 100% 0%
+        data-background-color: "#A499F4"
+#        data-background-image: warwick-logo-white.png
+#        data-background-size: 15%
+#        data-background-position: 100% 0%
       preview-links: auto
       link-external-newwindow: true
       width: 1280
       height: 720
       keep-md: false
       embed-resources: true
-#      format-resources:  # uncomment this and following line for offline fonts
-#        - offline_fonts

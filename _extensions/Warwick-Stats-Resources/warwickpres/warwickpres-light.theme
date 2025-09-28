@@ -15,14 +15,14 @@
             "underline": false
         },
         "Attribute": {
-            "text-color": "#59346D",
+            "text-color": "#625C92",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "SpecialString": {
-            "text-color": "#529A8A",
+            "text-color": "#318174",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -36,21 +36,21 @@
             "underline": false
         },
         "Function": {
-            "text-color": "#0090AF",
+            "text-color": "#416E99",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "String": {
-            "text-color": "#529A8A",
+            "text-color": "#318174",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "ControlFlow": {
-            "text-color": "#C5651D",
+            "text-color": "#7F6F3E",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -64,21 +64,21 @@
             "underline": false
         },
         "Error": {
-            "text-color": "#AD2B32",
+            "text-color": "#794C40",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "BaseN": {
-            "text-color": "#AD2B32",
+            "text-color": "#794C40",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "Alert": {
-            "text-color": "#AD2B32",
+            "text-color": "#794C40",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -106,7 +106,7 @@
             "underline": false
         },
         "Preprocessor": {
-            "text-color": "#AD2B32",
+            "text-color": "#794C40",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -120,7 +120,7 @@
             "underline": false
         },
         "VerbatimString": {
-            "text-color": "#529A8A",
+            "text-color": "#318174",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -141,28 +141,28 @@
             "underline": false
         },
         "Import": {
-            "text-color": "#59346D",
+            "text-color": "#625C92",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "Char": {
-            "text-color": "#529A8A",
+            "text-color": "#318174",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "DataType": {
-            "text-color": "#AD2B32",
+            "text-color": "#794C40",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "Float": {
-            "text-color": "#AD2B32",
+            "text-color": "#794C40",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -183,7 +183,7 @@
             "underline": false
         },
         "Constant": {
-            "text-color": "#C5651D",
+            "text-color": "#7F6F3E",
             "background-color": null,
             "bold": false,
             "italic": false,
@@ -197,14 +197,14 @@
             "underline": false
         },
         "DecVal": {
-            "text-color": "#AD2B32",
+            "text-color": "#794C40",
             "background-color": null,
             "bold": false,
             "italic": false,
             "underline": false
         },
         "RegionMarker": {
-            "text-color": "#0090AF",
+            "text-color": "#416E99",
             "background-color": null,
             "bold": false,
             "italic": false,
