@@ -6,7 +6,7 @@ execute:
 
 website:
   title: "warwickcourse"
-  favicon: images/warwick-monogram-favicon.png
+#  favicon: images/warwick-monogram-favicon.png
   navbar:
     right:
       - text: "Join"

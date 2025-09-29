@@ -25,7 +25,7 @@ $blue-dark: #4C80B3;
 $primary:       $lavendar !default;
 $body-color: $black;
 $link-color: $blue-dark;
-$code-color: $purple-bright;
+$code-color: $purple;
 $navbar-bg: $primary;
 $navbar-fg: $black;
 
@@ -64,7 +64,7 @@ h1, h2 {
   font-weight: 700;
 }
 
-#quarto-header {
+#quarto-header, .navbar-title {
   //text-transform: uppercase;
   font-family: $headings-font-family;
   font-weight: 700;
