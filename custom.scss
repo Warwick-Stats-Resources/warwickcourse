@@ -116,3 +116,20 @@ iframe.slide-deck {
     text-decoration: none;
 }
 
+// Correct the alignment and spacing of the title in the callouts
+.callout {
+  .callout-header {
+    display: flex;
+    align-items: center;
+    
+    .callout-icon-container {
+      margin-right: 0.1rem;  // Add space after the icon
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      align-self: center;
+    }
+  }
+}
